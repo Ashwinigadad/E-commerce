@@ -1,0 +1,77 @@
+.shop {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .shopTitle {
+    margin-bottom: 20px;
+  }
+  
+  .shopTitle h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .Products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 150px; /* Adjust as needed for uniform height */
+    object-fit: cover; /* Ensure the image is properly contained */
+  }
+  
+  .description {
+    margin-top: 10px;
+    flex-grow: 1;
+  }
+  
+  .description p {
+    margin: 5px 0;
+  }
+  
+  .description p b {
+    font-size: 1.2em;
+  }
+  
+  .addTocartBtn {
+    background-color: #030303;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Makes the button round-pilled */
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center align the button */
+  }
+  
+  .addTocartBtn:hover {
+    background-color: #63686d;
+  }
+  
