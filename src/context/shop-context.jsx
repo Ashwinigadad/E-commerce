@@ -15,10 +15,10 @@ export const ShopcontextProvider = (props) => {
     setcartItems((prev)=>({...prev,[itemID]:prev[itemID]+1}));
   }
 
-  const removeFromcart = (itemID)=>{
-    setcartItems((prev)=>({...prev,[itemID]:prev[itemID]-1}));
-  }
-  return <ShopContext.Provider>{props.children}</ShopContext.Provider>
+  // const removeFromcart = (itemID)=>{
+  //   setcartItems((prev)=>({...prev,[itemID]:prev[itemID]-1}));
+  // }
+  // return <ShopContext.Provider>{props.children}</ShopContext.Provider>
 
 }
 
