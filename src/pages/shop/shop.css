@@ -42,8 +42,8 @@
   
   .product img {
     width: 100%;
-    height: 150px; /* Adjust as needed for uniform height */
-    object-fit: cover; /* Ensure the image is properly contained */
+    height: 150px; 
+    object-fit: cover; 
   }
   
   .description {
@@ -63,12 +63,12 @@
     background-color: #030303;
     color: white;
     border: none;
-    border-radius: 50px; /* Makes the button round-pilled */
+    border-radius: 50px; 
     padding: 10px 15px;
     cursor: pointer;
     margin-top: 10px;
     transition: background-color 0.3s ease;
-    align-self: center; /* Center align the button */
+    align-self: center; 
   }
   
   .addTocartBtn:hover {

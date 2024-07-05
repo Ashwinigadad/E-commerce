@@ -1,63 +1,68 @@
 .cart {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .cartItem {
-    width: 700px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    margin: 30px;
-  }
-  
-  .cartItem img {
-    width: 200px;
-    height: auto; /* Ensures image maintains aspect ratio */
-    border-radius: 25px 0 0 25px; /* Adjust if you want rounded corners */
-  }
-  
-  .cartItem .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: 30px;
-  }
-  
-  .cartItem .description p {
-    margin: 5px 0;
-  }
-  
-  .cartItem .description p.productName {
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-  
-  .cartItem .description p.price {
-    font-size: 1.2em;
-    color: #666;
-  }
-  
-  .countHandler input {
-    width: 40px;
-    text-align: center;
-    font-weight: bolder;
-  }
-  
-  .checkout button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    margin: 10px;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.cartItem:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.cartItem img {
+  width: 200px;
+  height: auto; 
+  border-radius: 25px 0 0 25px; 
+}
+
+.cartItem .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.cartItem .description p {
+  margin: 5px 0;
+}
+
+.cartItem .description p.productName {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.cartItem .description p.price {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
