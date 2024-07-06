@@ -4,8 +4,8 @@ import product3 from './assets/coconut.png'
 import product4 from './assets/lemon.png'
 import product5 from './assets/masala.png'
 import product6 from './assets/pineapple.png'
-import product7 from './assets/strawberry.png'
-import product8 from './assets/tomato.png'
+// import product7 from './assets/strawberry.png'
+// import product8 from './assets/tomato.png'
 
 
 export const PRODUCTS = [
