@@ -15,3 +15,4 @@ export const Navbar = () => {
   )
 }
 
+console.log("hello");
